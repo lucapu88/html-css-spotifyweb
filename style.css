@@ -1,3 +1,7 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 /* inizio barra lateraLe */
 aside {
   background-color: black;
@@ -9,19 +13,51 @@ a {
   color: white;
 }
 
-.barra-laterale a {
+.barra-laterale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.6;
+}
+
+.container-ricerche {
   display: flex;
   flex-direction: column;
 }
 
+.hidden {
+  margin-left: 20px;
+}
+
+.fontAwsome{
+  padding-left: 10px;
+}
+.icon:hover {
+  border-left: 2px solid #1ED760;
+}
+
 .container-ricerche img {
   width: 100%;
+  padding: 30px 5px;
+}
+
+.sottomenu {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .container-bottom {
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
+}
+
+.app {
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+.profile {
+  padding:10px 0px;
 }
 /* fine barra laterale */
 /* inizio main-contain */
@@ -36,6 +72,11 @@ main {
 
 .navbar a {
   margin: 30px 10px;
+}
+
+.hamburger {
+  color: white;
+  padding: 10px;
 }
 
 .container-music {
@@ -62,4 +103,26 @@ footer {
   height: 60px;
   /* position: fixed;
   bottom: 0; */
+}
+
+@media screen and (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+
+  .visibleno {
+    display: none;
+  }
+
+  .container-ricerche img {
+    width: 50px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
+
 }

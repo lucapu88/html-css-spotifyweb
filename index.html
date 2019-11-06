@@ -5,27 +5,42 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="12bool.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
       <aside class="barra-laterale col-lg-2 col-md-2">
         <div class="container-ricerche">
-          <img src="https://i.pinimg.com/originals/69/36/d0/6936d0596438b55023e79050373c52cf.png" alt="spotify-logo">
-          <a href="#">Cerca</a>
-          <a href="#">Home</a>
-          <a href="#">La tua libreria</a>
-          <a href="#">ASCOLTATI DI RECENTE</a>
-          <a href="#">ARTISTA</a>
-          <a href="#">PLAYLIST</a>
+          <img class="visibleno" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2000px-Spotify_logo_with_text.svg.png" alt="spotify-logo">
+          <img class="hidden-xs" src="https://i.pinimg.com/originals/a1/62/f1/a162f1ee10d257abc6325e58fbb2a51a.png" alt="spotify-logo">
+          <div class="icon">
+            <a class="fontAwsome" href="#"><i class="fas fa-search"></i></a>
+            <a class="hidden" href="#">Cerca</a>
+          </div>
+          <div class="icon">
+            <a class="fontAwsome" href="#"><i class="fas fa-home"></i></a>
+            <a class="hidden" href="#">Home</a>
+          </div>
+          <div class="icon">
+            <a class="fontAwsome" href="#"><i class="fas fa-book-open"></i></a>
+            <a class="hidden" href="#">La tua libreria</a>
+          </div>
+          <div class="sottomenu">
+            <a class="hidden" href="#">ASCOLTATI DI RECENTE</a>
+            <a class="hidden" href="#">ARTISTA</a>
+            <a class="hidden" href="#">PLAYLIST</a>
+          </div>
         </div>
         <div class="container-bottom">
           <div class="app">
-            <a href="#">Install App</a>
+            <a class="fontAwsome" href="#"><i class="far fa-arrow-alt-circle-down"></i></a>
+            <a class="hidden" href="#">Install App</a>
           </div>
           <div class="profile">
-            <a href="#">L.Caputo</a>
+            <a class="fontAwsome" href="#"><i class="fas fa-user-alt fa-2x"></i></a>
+            <a class="hidden" href="#">L.Caputo</a>
           </div>
         </div>
       </aside>
@@ -38,8 +53,10 @@
           <a href="#">NUOVE USCITE</a>
           <a href="#">SCOPRI</a>
         </nav>
+        <div class="hidden-md hamburger">
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
         <div class="container-music">
-          
           <div class="box-img">
             <img src="https://i.scdn.co/image/5b2072e522bf3324019a8c2dc3db20116dff0b87" alt="">
             <p>Red Hot Chili Peppers</p>
