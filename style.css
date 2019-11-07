@@ -19,6 +19,7 @@ a:hover {
   justify-content: space-between;
   line-height: 1.6;
   background-color: rgba(0,0,0,0.6);
+  height: 90vh;
 }
 
 .container-ricerche {
@@ -89,12 +90,12 @@ main {
   padding: 10px;
 }
 
-/* .container-playlist {
+.container-playlist {
   width: 80%;
-  height: 100%;
+  height: 90vh;
   overflow: scroll;
   margin: 0 auto;
-} */
+}
 
 .main-contain {
   display: flex;
