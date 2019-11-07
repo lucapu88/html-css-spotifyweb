@@ -6,6 +6,10 @@ body {
 
 a {
   text-decoration: none;
+  color: rgba(255,255,255,0.6);
+}
+
+a:hover {
   color: white;
 }
 
@@ -29,9 +33,12 @@ a {
 
 .fontAwsome{
   padding-left: 10px;
+  color: white;
 }
+
 .icon:hover {
-  border-left: 2px solid #1ED760;
+  border-left: 3px solid #1ED760;
+  color: white;
 }
 
 .container-ricerche img {
@@ -61,6 +68,7 @@ a {
 /* inizio main-contain */
 main {
   background: linear-gradient(to top left, #000000 40%, #000066 100%);
+  color: white;
 }
 
 .navbar {
@@ -71,11 +79,9 @@ main {
 .navbar a {
   padding: 15px;
   font-size: 10px;
-  color: rgba(255,255,255,0.6);
 }
 
 .navbar a:hover {
-  color: white;
   border-bottom: 2px solid #1ED760;
 }
 
@@ -84,22 +90,27 @@ main {
   padding: 10px;
 }
 
+.main-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-music {
   display: flex;
-  /* justify-content: center; */
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .box-img {
-  width: 150px;
-  margin: 10px;
-  text-align: center;
+  width: 120px;
   color: white;
+  text-align: center;
 }
 
 .box-img img {
-  width: 100%;
-  margin: 5px;
+  max-width: 100%;
 }
 
 
