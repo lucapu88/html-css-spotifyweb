@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Spotify</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
@@ -179,7 +179,42 @@
       </div>
     </main>
     <footer>
-
+      <div class="album col-lg-2 col-md-2">
+        <img src="https://i.scdn.co/image/9c750a61e4664e80c29f328df0d0aaccb168500f" alt="">
+        <div class="text">
+          <p>Pull Me Under</p>
+          <small>Dream Theater</small>
+        </div>
+        <i class="far fa-heart"></i>
+      </div>
+      <div class="player col-lg-8 col-md-8">
+        <div class="player-select">
+          <i class="fas fa-random fa-2x"></i>
+          <i class="fas fa-step-backward fa-2x"></i>
+          <i class="far fa-play-circle fa-3x"></i>
+          <i class="fas fa-step-forward fa-2x"></i>
+          <i class="fas fa-redo-alt fa-2x"></i>
+        </div>
+        <div class="slidecontainer">
+          <div class="initial-time">
+            <p>0:00</p>
+          </div>
+          <div class="range">
+            <input type="range" min="1" max="100" value="50" class="slider">
+          </div>
+          <div class="final-time">
+            <p>8:14</p>
+          </div>
+        </div>
+      </div>
+      <div class="volume col-lg-2 col-md-2">
+        <div class="icon-volume">
+          <i class="fas fa-volume-up"></i>  
+        </div>
+        <div class="barra-volume">
+          <input type="range" min="1" max="100" value="50" class="myRange">
+        </div>
+      </div>
     </footer>
 
   </body>
