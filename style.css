@@ -164,6 +164,10 @@ footer i {
   color: #5E5E5E;
 }
 
+footer i:hover {
+  color: white;
+}
+
 .album img {
   width: 90px;
   padding: 15px;
@@ -182,6 +186,11 @@ footer i {
   flex-shrink: 0;
 }
 
+.text:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .player {
   padding: 15px 0px;
   display: flex;
@@ -191,7 +200,10 @@ footer i {
 
 .player-select {
   display: flex;
-  justify-content: space-around;
+}
+
+.player-select i {
+  padding: 0 20px;
 }
 
 .slidecontainer {
@@ -217,6 +229,7 @@ footer i {
 
 .volume {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
