@@ -223,10 +223,6 @@ footer i:hover {
   padding: 0 10px 0 10px;
 }
 
-.slider:hover {
-  cursor: crosshair;
-}
-
 .volume {
   display: flex;
   justify-content: center;
