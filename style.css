@@ -218,6 +218,9 @@ footer i:hover {
 
 .player-select {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .player-select i {
@@ -272,6 +275,21 @@ footer i:hover {
 
 /* fine footer */
 /* tutte le mediaquery */
+@media screen and (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .slider1 {
+    width: 100%;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
   .hidden {
     display: none;
@@ -289,15 +307,21 @@ footer i:hover {
     display: none;
   }
 
-}
-
-@media screen and (max-width: 992px) {
-  .navbar {
+  .album i {
     display: none;
   }
 
-  .text {
-    display: none;
+  .album img {
+    width: 70px;
   }
+  .app {
+    border-bottom: 1px solid white;
+    padding: 0 0 20px 0;
+    margin: 0px;
 
+  }
+  .profile {
+    padding: 20px 0 0 0;
+    margin: 0px;
+  }
 }
