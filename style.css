@@ -66,10 +66,14 @@ a:hover {
   border-bottom: 1px solid white;
   padding: 10px;
   margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .profile {
   padding:10px 0px;
   margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* fine barra laterale */
 /* inizio main-contain */
@@ -146,6 +150,9 @@ main {
   max-width: 100%;
 }
 
+.box-img img, p:hover {
+  cursor: pointer;
+}
 .box-img i {
   display: none;
   position: absolute;
@@ -257,6 +264,7 @@ footer i:hover {
   width: 100px;
 }
 .volume {
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
